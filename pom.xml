@@ -15,6 +15,7 @@
     <artifactId>ecommerce-project</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+
     <modules>
         <module>product-service</module>
         <module>eureka-discovery</module>
