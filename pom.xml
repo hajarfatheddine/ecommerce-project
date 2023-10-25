@@ -17,13 +17,14 @@
     <packaging>pom</packaging>
     <modules>
         <module>product-service</module>
+        <module>eureka-discovery</module>
     </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <spring-cloud.version>2021.0.5</spring-cloud.version>
+        <spring-cloud.version>2022.0.4</spring-cloud.version>
         <testcontainers.version>1.18.3</testcontainers.version>
     </properties>
     <dependencyManagement>
