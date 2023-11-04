@@ -17,9 +17,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>order-service</module>
-    </modules>
-
-    <modules>
         <module>product-service</module>
         <module>eureka-discovery</module>
         <module>inventory-service</module>
