@@ -1,4 +1,4 @@
-package com.ecom.productservice.dto;
+package com.ecom.productservice.dto.product;
 
 import lombok.*;
 

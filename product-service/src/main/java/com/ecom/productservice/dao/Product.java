@@ -1,4 +1,4 @@
-package com.ecom.productservice.model;
+package com.ecom.productservice.dao;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;
@@ -12,6 +12,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @Builder
 @Document(value = "product")
+@Generated
 public class Product {
     @Id
     private String id;
