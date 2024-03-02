@@ -1,6 +1,6 @@
 package com.ecom.productservice.integrationTests;
 
-import com.ecom.productservice.dto.product.ProductRequest;
+import com.ecom.productservice.dtos.product.ProductRequest;
 import com.ecom.productservice.repositories.ProductRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Assertions;

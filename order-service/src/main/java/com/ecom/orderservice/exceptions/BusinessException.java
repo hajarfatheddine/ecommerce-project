@@ -1,13 +1,13 @@
-package com.ecom.productservice.exceptions;
+package com.ecom.orderservice.exceptions;
 
-import com.ecom.productservice.enums.MessageCode;
+import com.ecom.orderservice.enums.MessageCode;
 import lombok.AllArgsConstructor;
+import lombok.Generated;
 import lombok.Getter;
-import lombok.ToString;
 
-@AllArgsConstructor
 @Getter
-@ToString
+@Generated
+@AllArgsConstructor
 public class BusinessException extends Exception {
     private final MessageCode code;
     private final String description;

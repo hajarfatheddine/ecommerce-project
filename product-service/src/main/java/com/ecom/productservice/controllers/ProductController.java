@@ -1,9 +1,9 @@
 package com.ecom.productservice.controllers;
 
-import com.ecom.productservice.dto.product.ProductRequest;
-import com.ecom.productservice.dto.product.ProductResponse;
-import com.ecom.productservice.dto.response.ResponseBodyFactory;
-import com.ecom.productservice.dto.response.ResponseBody;
+import com.ecom.productservice.dtos.product.ProductRequest;
+import com.ecom.productservice.dtos.product.ProductResponse;
+import com.ecom.productservice.dtos.response.ResponseBodyFactory;
+import com.ecom.productservice.dtos.response.ResponseBody;
 import com.ecom.productservice.exceptions.BusinessException;
 import com.ecom.productservice.services.ProductService;
 import lombok.RequiredArgsConstructor;

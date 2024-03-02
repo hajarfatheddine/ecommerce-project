@@ -1,7 +1,7 @@
 package com.ecom.inventoryservice;
 
-import com.ecom.inventoryservice.model.Inventory;
-import com.ecom.inventoryservice.repository.InventoryRepository;
+import com.ecom.inventoryservice.entities.Inventory;
+import com.ecom.inventoryservice.repositories.InventoryRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

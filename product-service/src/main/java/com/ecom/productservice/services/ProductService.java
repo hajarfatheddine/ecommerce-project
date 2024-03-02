@@ -1,8 +1,8 @@
 package com.ecom.productservice.services;
 
-import com.ecom.productservice.dto.product.ProductRequest;
-import com.ecom.productservice.dto.product.ProductResponse;
-import com.ecom.productservice.dao.Product;
+import com.ecom.productservice.dtos.product.ProductRequest;
+import com.ecom.productservice.dtos.product.ProductResponse;
+import com.ecom.productservice.entities.Product;
 import com.ecom.productservice.exceptions.BusinessException;
 import com.ecom.productservice.repositories.ProductRepository;
 import lombok.RequiredArgsConstructor;

@@ -1,6 +1,6 @@
 package com.ecom.productservice.services;
 
-import com.ecom.productservice.dto.product.ProductRequest;
+import com.ecom.productservice.dtos.product.ProductRequest;
 import com.ecom.productservice.exceptions.BusinessException;
 import com.ecom.productservice.exceptions.BusinessExceptionFactory;
 import lombok.RequiredArgsConstructor;
