@@ -21,6 +21,7 @@
         <module>product-service</module>
         <module>eureka-discovery</module>
         <module>inventory-service</module>
+        <module>notification-service</module>
     </modules>
 
     <properties>
